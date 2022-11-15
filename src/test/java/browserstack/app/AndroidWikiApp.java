@@ -13,9 +13,7 @@ public class AndroidWikiApp {
     private final String skipButton = "org.wikipedia.alpha:id/fragment_onboarding_skip_button",
             searchHolder = "Search Wikipedia",
             inputField = "org.wikipedia.alpha:id/search_src_text",
-            listOfResponse = "org.wikipedia.alpha:id/page_list_item_title",
-            description = "pcs-edit-section-title-description",
-            something = "Topics referred to by the same term";
+            listOfResponse = "org.wikipedia.alpha:id/page_list_item_title";
 
     public AndroidWikiApp skipLanguage() {
         step("Skip language choice", () ->
